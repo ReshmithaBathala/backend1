@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+### Registering a User
+
+POST https://localhost:3000/users
+Content-Type: application/json
+
+{   
+    "name":"m phani",
+    "username":"m phani",
+    "password": "phani1234",  
+    "gender": "Male",
+    "location":"hyderabad"
+}
+
+
+### User Login
+
+
+POST https://localhost:3000/login
+Content-Type: application/json
+
+{   
+    "username":"m phani",
+    "password": "phani1234" 
+}
